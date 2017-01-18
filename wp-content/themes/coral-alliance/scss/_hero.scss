@@ -1,0 +1,102 @@
+//
+// Home Hero
+// --------------------------------------------------
+
+
+.hero {
+    background: url("./images/header-bg.png");
+    background-position:top center;
+    background-size:cover;
+    min-height: 150vh;
+    width: 100%;
+    position:relative;
+    display: block;
+    top:0;
+    left:0;
+    margin:0;
+    z-index: 1;
+    align-content: center;
+    text-align: center;
+    float: none;
+}
+
+.hero p {
+    color:#fff; 
+    font-size: 1.2em;
+    line-height: 1.2em;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 10px 15px 50px;
+    font-family: 'tk-museo-sans', sans-serif;
+}
+
+.section-1 {
+    background: url("./images/section1.jpg");
+    background-postition: bottom center;
+    background-size: cover;
+    min-height: 100vh;
+    height: auto;
+    width: 100%!important;
+    display: block;
+    margin: 0!important;
+}
+
+.final {
+    background: url("./images/footer-bg.png");
+    background-position: top center;
+    background-size: cover;
+    margin: 20px 0 0;
+    padding: 25px 0 25px;
+    height: 275px;
+    width: 100%!important;
+    display: block;
+}
+
+.top {
+    text-align: center;
+    color: #fff;
+}
+
+.top h1 {
+    font-weight: 500;
+    padding: 0 10%;
+}
+
+.top p {
+    margin: 50px 0;
+}
+
+.top a {
+    color:#fff; 
+    line-height: 2rem; 
+    font-size: 2rem; 
+    border-radius: 100%; 
+    border: 1px #fff solid; 
+    text-align: center;
+}
+
+.top a:hover {
+    text-decoration: none;
+}
+
+.drivers h2 {
+    font-weight: 100;
+    font-size: 2em;
+    line-height: 1.2em;
+}
+
+
+.petition h1 {
+    color: #e549a5;
+    font-weight: 900;
+}
+
+.activity h5 {
+    font-weight: 100;
+    font-size: .8em;
+}
+
+.activity p {
+    font-weight: 600;
+    font-size: 1em;
+}

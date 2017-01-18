@@ -1,0 +1,12 @@
+# --- rewrite php request to html
+# Redirect original requests for php extensions to html --- But do not redirect the internal requests (rewrites)
+RewriteCond %{THE_REQUEST} \.php
+RewriteRule ^([^.]+)\.php$ $1.html [R=301,L]
+#RewriteRule ^([^.]+)\.php$ $1.html [NC,P]
+
+# --- rewrite php extensions to html
+#RewriteCond %{SCRIPT_FILENAME} -f [OR]
+#RewriteCond %{SCRIPT_FILENAME} -d
+#RewriteRule .* - [L]
+
+RewriteRule ^([^.]+)\.html$ $1.php [L]
